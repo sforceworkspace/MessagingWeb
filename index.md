@@ -1,6 +1,6 @@
 <html>
   <body>
-  <script type='text/javascript'>
+ <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
             window.addEventListener("onEmbeddedMessagingReady", () => {            
@@ -11,8 +11,8 @@
 
 			embeddedservice_bootstrap.init(
 				'00D2C0000008oKm',
-				'MW_GitHub_OmniFlow',
-				'https://wkhlrp--dev04.sandbox.my.site.com/ESWMWGitHubOmniFlow1714734622038',
+				'MW_sforceworkspace_github',
+				'https://wkhlrp--dev04.sandbox.my.site.com/ESWMWsforceworkspacegit1714735358467',
 				{
 					scrt2URL: 'https://wkhlrp--dev04.sandbox.my.salesforce-scrt.com'
 				}
@@ -22,6 +22,8 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://wkhlrp--dev04.sandbox.my.site.com/ESWMWGitHubOmniFlow1714734622038/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://wkhlrp--dev04.sandbox.my.site.com/ESWMWsforceworkspacegit1714735358467/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
+
 </body>
 </html>
